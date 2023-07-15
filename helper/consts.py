@@ -1,0 +1,9 @@
+RUNNING = True
+GAMING = False
+DEFAULT_DIMENSIONS = 4
+SMELLING_POWER = 3
+SEEING_POWER = 2
+MOVES = ["up", "down", "right", "left"]
+SETTING = ["default", "custom"]
+IN_GAME_COMMANDS = ["hint", "jump", "help"]
+EXIT_COMMANDS = ["quit", "q"]

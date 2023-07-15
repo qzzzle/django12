@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "d&d"
+version = "0.1.0"
+description = ""
+authors = ["ghazale"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
