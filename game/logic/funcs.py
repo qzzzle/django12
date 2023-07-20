@@ -84,8 +84,8 @@ def dragon_move(player: tuple, dragon: tuple) -> tuple:
         moves.append("up")
     elif y < 0:
         moves.append("down")
-    move = random.sample(moves, k=1)
-    return move[0]
+    move = random.choice(moves)
+    return move
 
 
 def jump_character(origin: tuple, destination:tuple, cells: list[tuple]) -> tuple[tuple, bool]:
